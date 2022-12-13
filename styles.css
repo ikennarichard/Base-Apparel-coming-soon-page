@@ -81,7 +81,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 8px;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     line-height: 1.1em;
     font-weight: lighter;
     margin-block-start: 1.5em;
@@ -177,7 +177,7 @@ input {
 .thanks_message {
     display: none;
     font-size: 0.8rem;
-    margin: 0;
+    margin-inline-start: 4.4em;
     padding-inline-start: 0.5em;
 }
 
@@ -309,5 +309,9 @@ input {
     .error_message {
 
         margin-inline-start: 0.5em;
+    }
+
+    .thanks_message {
+        margin: 0;
     }
 }
