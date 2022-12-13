@@ -64,7 +64,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-__linear gradient__ creates a progression of colors, from side to the other alog a straight line.
+__linear gradient/repeating-liner-gradient__ creates a progression of colors, from one side to the other along a straight line. 
+
+
+__intrinsic vs extrinsic__ intrinsic size refers to the contents natural size, while extrinsic sizing refers to the size set by the user.
+
+
+
+
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
