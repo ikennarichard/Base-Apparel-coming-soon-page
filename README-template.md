@@ -70,7 +70,7 @@ __linear gradient/repeating-liner-gradient__ creates a progression of colors, fr
 __intrinsic vs extrinsic__ intrinsic size refers to the contents natural size, while extrinsic sizing refers to the size set by the user.
 
 
-
+__Plain Old Semantic HTML - POSH__
 
 ### Continued development
 
