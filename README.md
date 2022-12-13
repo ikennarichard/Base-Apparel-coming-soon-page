@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github](https://your-solution-url.com)
-- Live Site URL: [live site](https://your-live-site-url.com)
+- Solution URL: [github](https://github.com/ikennarichard/Base-Apparel-coming-soon-page)
+- Live Site URL: [live site](https://ikennarichard.github.io/Base-Apparel-coming-soon-page/)
 
 
 ### Built with
