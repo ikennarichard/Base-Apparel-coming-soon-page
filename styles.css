@@ -124,7 +124,7 @@ h1 {
     color: white;
     filter: drop-shadow(0 0.4rem 0.3rem hsl(0, 80%, 86%) );
     right: -2px;
-    top: -2px;
+    top: -3px;
     bottom: 0;
     border-radius: 2em;
     z-index: 100;
@@ -135,8 +135,9 @@ h1 {
 
 
 form .input_ > input + button:hover{
+    background:hsl(0, 80%, 86%);
     cursor: pointer;
-    right: -7px ;
+    right: -3px ;
     transition: right 0.4s cubic-bezier(.45,.05,.55,.95);
     
 }
@@ -166,22 +167,18 @@ input {
 .error_message {
     display: none;
     font-size: 0.7rem;
-    padding-inline-start: 2em;
-    color: var(--desaturated-red)
-}
-
-
-
-.form_text {
     color: var(--desaturated-red);
-    font-family: var(--poppins);
-    font-size: 0.6rem;
-    text-align: center;
+    margin: 0;
+    margin-inline-start: 4.8em;
 }
 
 
-.hero_desktop {
+.thanks_message {
     display: none;
+    font-size: 0.7rem;
+    color: var(--desaturated-red);
+    margin: 0;
+    padding-inline-start: 0.5em;
 }
 
 
@@ -193,6 +190,27 @@ input {
     width: 18px;
     display: none;
 }
+
+
+
+.form_text {
+    color: var(--desaturated-red);
+    font-family: var(--poppins);
+    font-size: 0.6rem;
+    padding-inline-start: 5.7em;
+}
+
+
+.hero_desktop {
+    display: none;
+}
+
+
+.none {
+    display: block;
+}
+
+
 
 
 
@@ -285,5 +303,11 @@ input {
     .form_text {
         text-align: left;
         padding-inline-start: 0.7em;
+    }
+
+
+    .error_message {
+
+        margin-inline-start: 0.5em;
     }
 }

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
   <title>Base Apparel coming soon page</title>
 </head>
 <body>
@@ -27,16 +28,18 @@
   </div>
   
   
-  <form action="#">
+  <form action="#" novalidate>
     <p class="input_">
     
-      <input type="text" placeholder="Email Address">
+      <input type="email" placeholder="Email Address" class="input_address">
       <button type="submit" class="input_button"><img src="./images/icon-arrow.svg" alt="" class="submit_icon"></button>
       <img src="./images/icon-error.svg" alt="" class="error_icon">
     </p>
-    <p class="error_message">Please provide a valid email</p>
+    
    
   </form>
+  <p class="error_message">Please provide a valid email</p>
+  <p class="thanks_message">Thank You!</p>
     <p class="form_text">We'll never share your email with anyone else.</p>
   </div>
 
