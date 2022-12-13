@@ -32,7 +32,7 @@
 
 body {
     display: grid;
-    place-items: center;
+    place-content: center;
     min-height: 100vh;
     font-family: var(--josefin-sans);
     padding: 0;
@@ -55,6 +55,7 @@ img{
 main {
     background: var(--light-linear);
     width: 375px;
+    height: 800px;
     padding-block-end: 2em;
     display:flex;
     flex-direction: column;
@@ -220,9 +221,8 @@ input {
 @media (min-width: 1000px) {
 
     body {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        place-items: center;
+        grid-template-columns: auto auto;
+        place-content:center;
     }
 
 
@@ -232,7 +232,8 @@ input {
     }
 
     .hero_image_desktop {
-        height: inherit;
+        height: 700px;
+        width: 100%;
     }
 
 
@@ -243,19 +244,19 @@ input {
 
     .hero_desktop {
         display: block;
-        height: 530px;
-        width: 100%;
+        max-width: 100%;
     }
 
 
     .flex_ {
         padding: 0 7em;
-    
+        margin-block-start: 3em;
     }
 
 
     .logo_ {
-        padding-inline-start: 0.5em;
+        padding-inline-start: 8em;
+        margin-block-start: 1em;
     }
 
 
@@ -279,7 +280,7 @@ input {
 
 
     main {
-        height: 530px;
+        height: 700px;
         background: center / cover no-repeat url("./images/bg-pattern-desktop.svg"),var(--light-linear);
         width: 100%;
     }
@@ -310,7 +311,6 @@ input {
 
 
     .error_message {
-
         margin-inline-start: 0.5em;
     }
 
